@@ -1,0 +1,30 @@
+header{
+background-color: #b6c1cc;
+padding: 5px 0px 5px 0px;
+
+}
+
+h1{
+    color: darkslategrey;
+    text-align: center;
+
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #96cbff;
+    color:black;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    transition-duration: 0.4;
+    flex-direction: row;
+}
+
+.button:hover{
+    background-color: #a8821d;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.5), 0 16px 50px 0 rgba(0,0,0,0.20);
+}
