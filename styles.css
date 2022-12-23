@@ -17,7 +17,7 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60px;
     text-align: center;
-    justify-content: flex-start;
+
 }
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -69,4 +69,5 @@ p{
     background-size:100% 100%; 
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
