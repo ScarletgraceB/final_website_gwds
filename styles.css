@@ -36,18 +36,19 @@ p{
     font-size: 12px;
     padding: 10px 24px;
     border-radius: 10px;
+    border: 2px solid black;
     transition-duration: 0.4;
     
 }
 
 .rightbuttons{
     float: right;
-    border:darkblue;
+    
 }
 
 .leftbuttons{
     float: left;
-    border:darkblue;
+   
 }
 
 
@@ -71,3 +72,4 @@ p{
     flex-wrap: wrap;
     text-align: center;
 }
+
