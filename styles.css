@@ -6,13 +6,17 @@ padding: 40px 0px 40px 0px;
 
 footer{
     background-color: #d3d0c1;
-padding: 5px 0px 0px 0px;
-flex-direction: row;
+    padding: 5px 0px 0px 0px;
+    flex-direction: row;
+}
+
+body{
+    background-color:#d6e0b9
 }
 
 h1{
     color: #311f20;
-    text-align: center;
+    text-align: right;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     flex-wrap: wrap;
@@ -32,6 +36,15 @@ h3{
     color:whitesmoke
 }
 
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color:#311f20;
+    text-align:center;
+    line-height: 1px;
+    margin-bottom: 30px;
+}
+
 /*BUTTONS*/
 .button{
     flex-direction: row;
@@ -45,6 +58,7 @@ h3{
     border-radius: 10px;
     border: 2px solid black;
     transition-duration: 0.4;
+
     
 }
 
@@ -155,14 +169,18 @@ body,html{
 
 /*footer*/
 
-.footer-left{
-    text-align: left;
-    flex-wrap: nowrap;
-}
 
 .footer-right{
     text-align:right;
     flex-wrap: nowrap;
 }
 
-
+/*TYPE PAGE*/
+ 
+.type-subtitle{
+    text-align:center;
+    color: #384548;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  
+}
