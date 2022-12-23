@@ -6,7 +6,8 @@ padding: 40px 0px 40px 0px;
 
 footer{
     background-color: #d3d0c1;
-padding: 40px 0px 40px 0px;
+padding: 5px 0px 0px 0px;
+flex-direction: row;
 }
 
 h1{
@@ -156,12 +157,12 @@ body,html{
 
 .footer-left{
     text-align: left;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .footer-right{
     text-align:right;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 
