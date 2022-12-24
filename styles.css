@@ -215,3 +215,19 @@ body,html{
     border: 30px solid #311f20;
     padding:15px 25px 15px 15px;
 }
+
+/*ux styles*/
+
+.ux-layout{
+    background-color: #311f20;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    flex:1;
+}
+
+.ux-sketch{
+    border: 20px solid #311f20;
+    padding:5px 15px 5px 5px;
+    justify-content: center;
+}
