@@ -45,6 +45,15 @@ h4{
     margin-bottom: 30px;
 }
 
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color:#384548;
+    line-height: 1px;
+    margin-bottom: 30px;
+    text-align:left;
+}
+
 /*BUTTONS*/
 .button{
     flex-direction: row;
@@ -96,7 +105,7 @@ body,html{
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left:50%;
     transform:translate(-50%,-50%);
     z-index:2;
@@ -182,5 +191,27 @@ body,html{
     color: #384548;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-  
+}
+
+.media-flipped{
+    flex-direction: row-reverse;
+}
+
+.media-container{
+    background-color: #311f20;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    flex:1;
+    padding:15px 25px 15px 15px;
+}
+
+.type-reflect{
+    background-color: #a07a81;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    flex:1;
+    border: 30px solid #311f20;
+    padding:15px 25px 15px 15px;
 }
