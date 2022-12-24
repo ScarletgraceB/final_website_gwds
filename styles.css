@@ -244,3 +244,34 @@ body,html{
 .carp-border{
     border: 20px solid #311f20;
 }
+
+/*code styles*/
+
+.code-container-left-1{
+    position:absolute;
+    width:50%;
+    
+}
+
+.code-container-left-1 img{
+    width: 100%;
+    height:auto;
+    
+}
+
+.code-container-left-1 .btn{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    background-color:#8c4d59;
+    color:#311f20;
+    font-size:15px;
+    padding:12px 24px;
+    border-radius:5px;
+}
+
+.code-container-left-1 .btn:hover{
+    background-color:#311f20
+}
