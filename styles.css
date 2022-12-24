@@ -231,3 +231,16 @@ body,html{
     padding:5px 15px 5px 5px;
     justify-content: center;
 }
+
+.carp-layout{
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+    background-color:#311f20;
+    flex:1;
+    padding:30px;
+}
+
+.carp-border{
+    border: 20px solid #311f20;
+}
