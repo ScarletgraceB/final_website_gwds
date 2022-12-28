@@ -121,6 +121,22 @@ body,html{
     text-align: center;
 }
 
+.bg-text-1{
+    background-color:whitesmoke;
+    background: rgba(0,0,0,0.7);
+    color:whitesmoke;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 190%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index:2;
+    width:80%;
+    padding:30px;
+    text-align: center;
+}
+
 .code-box{
     background-color:whitesmoke;
     background: rgba(160,122,129);
