@@ -230,6 +230,7 @@ body,html{
 }
 
 .type-reflect{
+    font-size: 50px;
     background-color: #a07a81;
     display:flex;
     justify-content: flex-start;
